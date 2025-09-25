@@ -2,6 +2,8 @@ package com.pluralsight;
 
 public class CompareNumbers {
     public static void main(String[] args) {
+        System.out.println(isEven(5));
+        System.out.println(isPositive(5));
 
     }
 
@@ -21,6 +23,5 @@ public class CompareNumbers {
         else {
             return false;
         }
-
     }
 }
